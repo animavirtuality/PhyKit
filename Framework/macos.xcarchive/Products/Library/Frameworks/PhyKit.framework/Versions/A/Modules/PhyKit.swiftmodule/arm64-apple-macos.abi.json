@@ -3519,9 +3519,167 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "shape",
+            "printedName": "shape",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PHYCollisionShape",
+                "printedName": "PhyKit.PHYCollisionShape",
+                "usr": "s:6PhyKit17PHYCollisionShapeP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6PhyKit12PHYRigidBodyC5shapeAA17PHYCollisionShape_pvp",
+            "mangledName": "$s6PhyKit12PHYRigidBodyC5shapeAA17PHYCollisionShape_pvp",
+            "moduleName": "PhyKit",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PHYCollisionShape",
+                    "printedName": "PhyKit.PHYCollisionShape",
+                    "usr": "s:6PhyKit17PHYCollisionShapeP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6PhyKit12PHYRigidBodyC5shapeAA17PHYCollisionShape_pvg",
+                "mangledName": "$s6PhyKit12PHYRigidBodyC5shapeAA17PHYCollisionShape_pvg",
+                "moduleName": "PhyKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6PhyKit12PHYRigidBodyC4nameSSSgvp",
+            "mangledName": "$s6PhyKit12PHYRigidBodyC4nameSSSgvp",
+            "moduleName": "PhyKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6PhyKit12PHYRigidBodyC4nameSSSgvg",
+                "mangledName": "$s6PhyKit12PHYRigidBodyC4nameSSSgvg",
+                "moduleName": "PhyKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6PhyKit12PHYRigidBodyC4nameSSSgvs",
+                "mangledName": "$s6PhyKit12PHYRigidBodyC4nameSSSgvs",
+                "moduleName": "PhyKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6PhyKit12PHYRigidBodyC4nameSSSgvM",
+                "mangledName": "$s6PhyKit12PHYRigidBodyC4nameSSSgvM",
+                "moduleName": "PhyKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(type:shape:)",
+            "printedName": "init(type:shape:name:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3540,11 +3698,26 @@
                 "name": "PHYCollisionShape",
                 "printedName": "PhyKit.PHYCollisionShape",
                 "usr": "s:6PhyKit17PHYCollisionShapeP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6PhyKit12PHYRigidBodyC4type5shapeAcA0cD4TypeO_AA17PHYCollisionShape_ptcfc",
-            "mangledName": "$s6PhyKit12PHYRigidBodyC4type5shapeAcA0cD4TypeO_AA17PHYCollisionShape_ptcfc",
+            "usr": "s:6PhyKit12PHYRigidBodyC4type5shape4nameAcA0cD4TypeO_AA17PHYCollisionShape_pSSSgtcfc",
+            "mangledName": "$s6PhyKit12PHYRigidBodyC4type5shape4nameAcA0cD4TypeO_AA17PHYCollisionShape_pSSSgtcfc",
             "moduleName": "PhyKit",
             "declAttributes": [
               "AccessControl",

@@ -192,7 +192,9 @@ public class PHYCollisionShapeCylinder : PhyKit.PHYCollisionShape {
 @objc public class PHYRigidBody : PhyKit.CPHYRigidBody {
   final public let uuid: Swift.String
   final public let type: PhyKit.PHYRigidBodyType
-  public init(type: PhyKit.PHYRigidBodyType, shape: PhyKit.PHYCollisionShape)
+  final public let shape: PhyKit.PHYCollisionShape
+  public var name: Swift.String?
+  public init(type: PhyKit.PHYRigidBodyType, shape: PhyKit.PHYCollisionShape, name: Swift.String? = nil)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class PHYWorld : PhyKit.CPHYWorld {
