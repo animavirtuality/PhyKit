@@ -6,15 +6,20 @@
 //  Copyright © 2020 adameisfeld. All rights reserved.
 //
 
+/*
+ THIS IS AN ALTERED VERSION OF THE ORIGINAL SOURCE AND IS NOT THE ORIGINAL SOFTWARE.
+ */
+
 import Foundation
 import SceneKit
-
+#if canImport(ARKit)
+import ARKit
+#endif
 /// Geometry instances represent a relationship of vertices->polygons->meshs that build up a 3D model
-public class PHYGeometry {
+open class PHYGeometry {
     
     /// The internal geometry to pass around objc land
     public let internalGeometry: CPHYGeometry
-    
     
     /// Initialized a new geometry instance from the provided scenekit geometry.
     /// Currently PHYGeometry only supports geometry containing geometry elements with a primitiveType of either .polygon or .triangle.
@@ -22,6 +27,13 @@ public class PHYGeometry {
     public init(scnGeometry: SCNGeometry) {
         internalGeometry = PHYGeometry.getGeometry(scnGeometry)
     }
+#if os(iOS)
+    /// Initialized a new geometry instance from the provided ARMeshAnchor geometry.
+    @available(iOS 13.4, *)
+    public init(meshAnchor: ARMeshAnchor){
+        internalGeometry = PHYGeometry.getGeometry(meshAnchor)
+    }
+#endif
     
     private static func getGeometry(_ scnGeometry: SCNGeometry) -> CPHYGeometry {
         let vertexPositions = Self.getVertexPositions(scnGeometry)

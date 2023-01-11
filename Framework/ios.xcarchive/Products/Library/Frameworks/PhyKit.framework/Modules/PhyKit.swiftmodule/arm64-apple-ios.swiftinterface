@@ -1,11 +1,14 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PhyKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import ARKit
 import Foundation
 @_exported import PhyKit
 import SceneKit
 import Swift
 import _Concurrency
+import _StringProcessing
 public class PHYAction {
   public typealias SetupBlock = ((_ rigidBody: PhyKit.PHYRigidBody) -> (Any?))
   public typealias ActionBlock = ((_ percent: Foundation.TimeInterval, _ rigidBody: PhyKit.PHYRigidBody, _ setupInfo: Any?) -> ())
@@ -156,9 +159,11 @@ public class PHYCollisionShapeGeometry : PhyKit.PHYCollisionShape {
   public init(geometry: PhyKit.PHYGeometry, type: PhyKit.PHYCollisionShapeGeometry.PHYCollisionShapeGeometryType, transform: PhyKit.PHYMatrix4 = PHYMatrix4MakeIdentity(), margin: Swift.Float = 0.04)
   @objc deinit
 }
-public class PHYGeometry {
+open class PHYGeometry {
   final public let internalGeometry: PhyKit.CPHYGeometry
   public init(scnGeometry: SceneKit.SCNGeometry)
+  @available(iOS 13.4, *)
+  public init(meshAnchor: ARKit.ARMeshAnchor)
   @objc deinit
 }
 public protocol PHYWorldCollisionDelegate : AnyObject {

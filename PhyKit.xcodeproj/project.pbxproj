@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5592AF81296F2D5700FA7F21 /* PHYGeometry+ARKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5592AF80296F2D5700FA7F21 /* PHYGeometry+ARKit.swift */; };
 		F3A560EA25A36A91006D6778 /* PhyKit_osUmbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A560E825A36A91006D6778 /* PhyKit_osUmbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3A560F825A36AA9006D6778 /* PhyKit_osUmbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A560F625A36AA9006D6778 /* PhyKit_osUmbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3A5701B25A376A8006D6778 /* btStaticPlaneShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3A56FE625A37692006D6778 /* btStaticPlaneShape.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
@@ -440,6 +441,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5592AF80296F2D5700FA7F21 /* PHYGeometry+ARKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PHYGeometry+ARKit.swift"; sourceTree = "<group>"; };
 		F3A560E525A36A90006D6778 /* PhyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A560E825A36A91006D6778 /* PhyKit_osUmbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhyKit_osUmbrella.h; sourceTree = "<group>"; };
 		F3A560E925A36A91006D6778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1627,6 +1629,7 @@
 			isa = PBXGroup;
 			children = (
 				F3A5724125A37773006D6778 /* PHYGeometry.swift */,
+				5592AF80296F2D5700FA7F21 /* PHYGeometry+ARKit.swift */,
 			);
 			path = Geometry;
 			sourceTree = "<group>";
@@ -1968,6 +1971,7 @@
 				F3A5702A25A376A8006D6778 /* btConvexInternalShape.cpp in Sources */,
 				F3A5727025A37773006D6778 /* PHYCollisionShapeGeometry.swift in Sources */,
 				F3A5701E25A376A8006D6778 /* btGjkConvexCast.cpp in Sources */,
+				5592AF81296F2D5700FA7F21 /* PHYGeometry+ARKit.swift in Sources */,
 				F3A5715A25A376D1006D6778 /* btHingeConstraint.cpp in Sources */,
 				F3A5715C25A376D1006D6778 /* btSolve2LinearConstraint.cpp in Sources */,
 				F3A5727225A37773006D6778 /* PHYGeometry.swift in Sources */,
