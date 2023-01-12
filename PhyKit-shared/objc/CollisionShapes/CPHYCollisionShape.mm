@@ -196,6 +196,17 @@
     return self;
 }
 
+- (void)setLocalScaling: (struct PHYVector3)newScale {
+    btVector3 c_scale = btVector3(newScale.x, newScale.y, newScale.z);
+    _c_shape->setLocalScaling(c_scale);
+}
+
+- (struct PHYVector3)getLocalScaling {
+    btVector3 c_scale = _c_shape->getLocalScaling();
+    
+    return PHYVector3Make(c_scale.x(), c_scale.y(), c_scale.z());
+}
+
 - (NSData *)serialize {
     
     int maxSerializeBufferSize = 1024*1024*5;

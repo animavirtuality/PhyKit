@@ -33,6 +33,11 @@ struct PHYMatrix4;
 - (instancetype)initConvexHullWithGeometry: (CPHYGeometry *)geometry transform: (struct PHYMatrix4)transform;
 - (instancetype)initTriangleMeshWithGeometry: (CPHYGeometry *)geometry transform: (struct PHYMatrix4)transform;
 
+// Changes the local scaling of a given btCollisionShape instance.
+- (void)setLocalScaling: (struct PHYVector3)newScale;
+
+- (struct PHYVector3)getLocalScaling;
+
 - (NSData *)serialize;
 
 @end

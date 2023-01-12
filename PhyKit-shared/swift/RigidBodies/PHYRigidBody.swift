@@ -22,6 +22,15 @@ public class PHYRigidBody: CPHYRigidBody {
     
     public var name: String?
     
+    public var scale: PHYVector3 {
+        set {
+            self.shape.internalShape.setLocalScaling(newValue)
+        }
+        get {
+            return self.shape.internalShape.getLocalScaling()
+        }
+    }
+    
     /// Creates a new rigid body
     /// - Parameters:
     ///   - type: The type of rigid body to create

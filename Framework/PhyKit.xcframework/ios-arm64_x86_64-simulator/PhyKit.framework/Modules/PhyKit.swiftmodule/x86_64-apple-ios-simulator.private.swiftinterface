@@ -194,6 +194,10 @@ public class PHYCollisionShapeCylinder : PhyKit.PHYCollisionShape {
   final public let type: PhyKit.PHYRigidBodyType
   final public let shape: PhyKit.PHYCollisionShape
   public var name: Swift.String?
+  public var scale: PhyKit.PHYVector3 {
+    get
+    set
+  }
   public init(type: PhyKit.PHYRigidBodyType, shape: PhyKit.PHYCollisionShape, name: Swift.String? = nil)
   @objc deinit
 }

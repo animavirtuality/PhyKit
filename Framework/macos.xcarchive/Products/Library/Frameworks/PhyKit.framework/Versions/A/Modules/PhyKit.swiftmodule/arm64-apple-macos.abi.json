@@ -3677,6 +3677,87 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "scale",
+            "printedName": "scale",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PHYVector3",
+                "printedName": "PhyKit.PHYVector3",
+                "usr": "c:@S@PHYVector3"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6PhyKit12PHYRigidBodyC5scaleSo10PHYVector3Vvp",
+            "mangledName": "$s6PhyKit12PHYRigidBodyC5scaleSo10PHYVector3Vvp",
+            "moduleName": "PhyKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PHYVector3",
+                    "printedName": "PhyKit.PHYVector3",
+                    "usr": "c:@S@PHYVector3"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6PhyKit12PHYRigidBodyC5scaleSo10PHYVector3Vvg",
+                "mangledName": "$s6PhyKit12PHYRigidBodyC5scaleSo10PHYVector3Vvg",
+                "moduleName": "PhyKit",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PHYVector3",
+                    "printedName": "PhyKit.PHYVector3",
+                    "usr": "c:@S@PHYVector3"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6PhyKit12PHYRigidBodyC5scaleSo10PHYVector3Vvs",
+                "mangledName": "$s6PhyKit12PHYRigidBodyC5scaleSo10PHYVector3Vvs",
+                "moduleName": "PhyKit",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6PhyKit12PHYRigidBodyC5scaleSo10PHYVector3VvM",
+                "mangledName": "$s6PhyKit12PHYRigidBodyC5scaleSo10PHYVector3VvM",
+                "moduleName": "PhyKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(type:shape:name:)",
@@ -6926,210 +7007,210 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
       "kind": "IntegerLiteral",
       "offset": 539,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
       "kind": "IntegerLiteral",
       "offset": 682,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
       "kind": "IntegerLiteral",
       "offset": 767,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
       "kind": "IntegerLiteral",
       "offset": 892,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
       "kind": "BooleanLiteral",
       "offset": 929,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeStaticPlane.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeStaticPlane.swift",
       "kind": "IntegerLiteral",
       "offset": 463,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeStaticPlane.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeStaticPlane.swift",
       "kind": "IntegerLiteral",
       "offset": 466,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeStaticPlane.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeStaticPlane.swift",
       "kind": "IntegerLiteral",
       "offset": 469,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeStaticPlane.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeStaticPlane.swift",
       "kind": "FloatLiteral",
       "offset": 539,
       "length": 4,
       "value": "0.04"
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
       "kind": "BooleanLiteral",
       "offset": 360,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
       "kind": "BooleanLiteral",
       "offset": 2099,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/Scene\/PHYScene.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Scene\/PHYScene.swift",
       "kind": "Dictionary",
       "offset": 663,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/Scene\/PHYScene.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Scene\/PHYScene.swift",
       "kind": "Dictionary",
       "offset": 741,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeGeometry.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeGeometry.swift",
       "kind": "FloatLiteral",
       "offset": 607,
       "length": 4,
       "value": "0.04"
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeCapsule.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeCapsule.swift",
       "kind": "FloatLiteral",
       "offset": 449,
       "length": 4,
       "value": "0.04"
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeBox.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeBox.swift",
       "kind": "FloatLiteral",
       "offset": 451,
       "length": 4,
       "value": "0.04"
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeCylinder.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeCylinder.swift",
       "kind": "FloatLiteral",
       "offset": 452,
       "length": 4,
       "value": "0.04"
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/RigidBodies\/PHYRigidBody.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/RigidBodies\/PHYRigidBody.swift",
       "kind": "StringLiteral",
       "offset": 268,
       "length": 12,
       "value": "\"PhyKit.PHYRigidBody\""
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/RigidBodies\/PHYRigidBody.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/RigidBodies\/PHYRigidBody.swift",
       "kind": "StringLiteral",
       "offset": 268,
       "length": 12,
       "value": "\"PhyKit.PHYRigidBody\""
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
       "kind": "IntegerLiteral",
       "offset": 1043,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
       "kind": "Array",
       "offset": 1210,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
       "kind": "Array",
       "offset": 1257,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
       "kind": "Dictionary",
       "offset": 1323,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
       "kind": "Dictionary",
       "offset": 1397,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
       "kind": "Dictionary",
       "offset": 1464,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
       "kind": "Dictionary",
       "offset": 1534,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeSphere.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeSphere.swift",
       "kind": "FloatLiteral",
       "offset": 431,
       "length": 4,
       "value": "0.04"
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/Triggers\/PHYTrigger.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Triggers\/PHYTrigger.swift",
       "kind": "StringLiteral",
       "offset": 309,
       "length": 10,
       "value": "\"PhyKit.PHYTrigger\""
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/Triggers\/PHYTrigger.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Triggers\/PHYTrigger.swift",
       "kind": "StringLiteral",
       "offset": 309,
       "length": 10,
       "value": "\"PhyKit.PHYTrigger\""
     },
     {
-      "filePath": "\/Users\/grantjarvis\/Desktop\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeCompound.swift",
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeCompound.swift",
       "kind": "FloatLiteral",
       "offset": 472,
       "length": 4,
