@@ -6,6 +6,10 @@
 //  Copyright © 2020 adam. All rights reserved.
 //
 
+/*
+ THIS IS AN ALTERED VERSION OF THE ORIGINAL SOURCE AND IS NOT THE ORIGINAL SOFTWARE.
+ */
+
 #import <Foundation/Foundation.h>
 #import <SceneKit/SceneKit.h>
 
@@ -27,7 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)internalStepSimulation: (NSTimeInterval)time;
 - (void)internalCheckCollisions;
-- (void)internalCollisionDidOccur: (CPHYRigidBody *)internalRigidBodyA localPositionA: (struct PHYVector3 )pointA internalRigidBodyB: (CPHYRigidBody *)internalRigidBodyB localPositionB: (struct PHYVector3 )pointB;
+- (void)internalCollisionDidOccur: (CPHYRigidBody *)internalRigidBodyA localPositionA: (struct PHYVector3 )pointA internalRigidBodyB: (CPHYRigidBody *)internalRigidBodyB localPositionB: (struct PHYVector3 )pointB worldNormalB: (struct PHYVector3 )normalB;
 - (void)internalRaycastAllFrom: (struct PHYVector3 )from to: (struct PHYVector3 )to perform: (void (^_Nullable)(struct PHYVector3 position, struct PHYVector3 normal, CPHYRigidBody* rigidBody))hitResult;
 - (void)internalReset;
 

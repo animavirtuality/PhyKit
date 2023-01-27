@@ -6,6 +6,10 @@
 //  Copyright © 2020 adam. All rights reserved.
 //
 
+/*
+ THIS IS AN ALTERED VERSION OF THE ORIGINAL SOURCE AND IS NOT THE ORIGINAL SOFTWARE.
+ */
+
 import Foundation
 import SceneKit
 
@@ -192,7 +196,7 @@ public class PHYWorld: CPHYWorld {
         }
     }
     
-    public override func internalCollisionDidOccur(_ internalRigidBodyA: CPHYRigidBody, localPositionA: PHYVector3, internalRigidBodyB: CPHYRigidBody, localPositionB: PHYVector3) {
+    public override func internalCollisionDidOccur(_ internalRigidBodyA: CPHYRigidBody, localPositionA: PHYVector3, internalRigidBodyB: CPHYRigidBody, localPositionB: PHYVector3, worldNormalB: PHYVector3) {
         
         guard
             let rigidBodyA = internalRigidBodyA as? PHYRigidBody,
@@ -211,7 +215,7 @@ public class PHYWorld: CPHYWorld {
         }
         
         if collisionPairs[combinedIdentifier] == nil {
-            let collisionPair = PHYCollisionPair(rigidBodyA: rigidBodyA, localPositionA: localPositionA, rigidBodyB: rigidBodyB, localPositionB: localPositionB)
+            let collisionPair = PHYCollisionPair(rigidBodyA: rigidBodyA, localPositionA: localPositionA, rigidBodyB: rigidBodyB, localPositionB: localPositionB, worldNormalB: worldNormalB)
             collisionPairs[combinedIdentifier] = collisionPair
             
             if previousCollisionPairs[combinedIdentifier] == nil {

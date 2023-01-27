@@ -6,6 +6,10 @@
 //  Copyright © 2020 adam. All rights reserved.
 //
 
+/*
+ THIS IS AN ALTERED VERSION OF THE ORIGINAL SOURCE AND IS NOT THE ORIGINAL SOFTWARE.
+ */
+
 #import "CPHYWorld.h"
 
 #import "CPHYStructs.h"
@@ -114,6 +118,10 @@
             const btCollisionObject* c_colObjB = contactManifold->getBody1();
 
             btManifoldPoint contactPoint = contactManifold->getContactPoint(0);
+            
+            //Extract collision normals
+            btVector3 c_normalWorldOnB = contactPoint.m_normalWorldOnB;
+            PHYVector3 worldNormalB = PHYVector3Make(c_normalWorldOnB.x(), c_normalWorldOnB.y(), c_normalWorldOnB.z());
 
             // Compute Local Positions
             btVector3 c_localPositionA = contactPoint.m_localPointA;
@@ -127,7 +135,7 @@
             CPHYRigidBody* rigidBodyB = (__bridge CPHYRigidBody*)c_colObjB->getUserPointer();
 
             // Signal a collision
-            [self internalCollisionDidOccur:rigidBodyA localPositionA:localPositionA internalRigidBodyB:rigidBodyB localPositionB:localPositionB];
+            [self internalCollisionDidOccur:rigidBodyA localPositionA:localPositionA internalRigidBodyB:rigidBodyB localPositionB:localPositionB worldNormalB:worldNormalB];
 
         }
 
@@ -135,7 +143,7 @@
     
 }
 
-- (void)internalCollisionDidOccur:(CPHYRigidBody *)internalRigidBodyA localPositionA:(struct PHYVector3)pointA internalRigidBodyB:(CPHYRigidBody *)internalRigidBodyB localPositionB:(struct PHYVector3)pointB {
+- (void)internalCollisionDidOccur:(CPHYRigidBody *)internalRigidBodyA localPositionA:(struct PHYVector3)pointA internalRigidBodyB:(CPHYRigidBody *)internalRigidBodyB localPositionB:(struct PHYVector3)pointB worldNormalB:(struct PHYVector3)normalB {
     // Subclass overrides
 }
 

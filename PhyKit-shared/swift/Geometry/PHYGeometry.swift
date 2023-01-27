@@ -16,7 +16,7 @@ import SceneKit
 import ARKit
 #endif
 /// Geometry instances represent a relationship of vertices->polygons->meshs that build up a 3D model
-open class PHYGeometry {
+public class PHYGeometry {
     
     /// The internal geometry to pass around objc land
     public let internalGeometry: CPHYGeometry
