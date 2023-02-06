@@ -69,6 +69,10 @@
 
 // MARK: Updates
 
+- (void)internalAddRigidBody: (CPHYRigidBody *)rigidBody group:(int)group mask:(int)mask {
+    _world->addRigidBody(rigidBody.c_body, group, mask);
+    rigidBody.physicsWorld = self;
+}
 - (void)internalAddRigidBody: (CPHYRigidBody *)rigidBody {
     _world->addRigidBody(rigidBody.c_body);
     rigidBody.physicsWorld = self;
@@ -81,6 +85,10 @@
 
 - (void)internalAddTrigger: (CPHYTrigger *)physicsTrigger {
     _world->addCollisionObject(physicsTrigger.ghostObject);
+    physicsTrigger.physicsWorld = self;
+}
+- (void)internalAddTrigger: (CPHYTrigger *)physicsTrigger group:(int)group mask:(int)mask  {
+    _world->addCollisionObject(physicsTrigger.ghostObject, group, mask);
     physicsTrigger.physicsWorld = self;
 }
 

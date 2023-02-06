@@ -13,6 +13,12 @@
 import Foundation
 import SceneKit
 
+public struct PhyCollisionFilter {
+    ///The collision group or groups, stored as a bit mask, to which the rigid body belongs.
+    let group: Int32
+    ///The collision group or groups, stored as a bitmask, with which the rigid body can collide.
+    let mask: Int32
+}
 /**
  Worlds are responsible for running the actual bullet simulation and managing which
  physics bodies are attached to the world.
@@ -39,13 +45,13 @@ public class PHYWorld: CPHYWorld {
     
     // MARK: Private Properties
 
-    private var rigidBodies: Set<PHYRigidBody> = []
-    private var triggers: Set<PHYTrigger> = []
+    private(set) var rigidBodies: Set<PHYRigidBody> = []
+    private(set) var triggers: Set<PHYTrigger> = []
 
     private var collisionPairs: [String : PHYCollisionPair] = [:]
     private var previousCollisionPairs: [String : PHYCollisionPair] = [:]
     
-    private var triggerPairs: [String : PHYTriggerPair] = [:]
+    private(set) var triggerPairs: [String : PHYTriggerPair] = [:]
     private var previousTriggerPairs: [String : PHYTriggerPair] = [:]
     
     // MARK: Public Functions - Rigid Bodies
@@ -53,9 +59,14 @@ public class PHYWorld: CPHYWorld {
     /// Adds a rigid body to the simulation
     /// - Parameters:
     ///   - rigidBody: The rigid body to add
-    public func add(_ rigidBody: PHYRigidBody) {
+    ///   - collisionFilter: Defines the collision group or groups to which the rigid body belongs, and the collision group or groups with which the rigid body can collide.
+    public func add(_ rigidBody: PHYRigidBody, collisionFilter: PhyCollisionFilter? = nil) {
         rigidBodies.insert(rigidBody)
-        internalAdd(rigidBody)
+        if let filter = collisionFilter {
+            internalAdd(rigidBody, group: filter.group, mask: filter.mask)
+        } else {
+            internalAdd(rigidBody)
+        }
     }
     
     /// Removes a rigid body from the simulation
@@ -71,9 +82,13 @@ public class PHYWorld: CPHYWorld {
     /// Adds a trigger to the simulation
     /// - Parameters:
     ///   - trigger: The trigger to add to the simulation
-    public func add(_ trigger: PHYTrigger) {
+    public func add(_ trigger: PHYTrigger, collisionFilter: PhyCollisionFilter? = nil) {
         triggers.insert(trigger)
-        internalAdd(trigger)
+        if let filter = collisionFilter {
+            internalAdd(trigger, group: filter.group, mask: filter.mask)
+        } else {
+            internalAdd(trigger)
+        }
     }
     
     /// Removes a trigger from the simulation
@@ -178,9 +193,7 @@ public class PHYWorld: CPHYWorld {
                         triggerDelegate?.physicsWorld(self, triggerDidBeginAtTime: simulationTime, with: triggerPair)
                     }
                 }
-                
             }
-            
         }
         
         for previousTriggerPair in previousTriggerPairs {
@@ -192,7 +205,6 @@ public class PHYWorld: CPHYWorld {
                 // Continued colliding
                 triggerDelegate?.physicsWorld(self, triggerDidContinueAtTime: simulationTime, with: previousTriggerPair.value)
             }
-            
         }
     }
     

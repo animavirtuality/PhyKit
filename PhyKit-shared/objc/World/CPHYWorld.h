@@ -24,9 +24,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) struct PHYVector3 gravity;
 
 - (void)internalAddRigidBody: (CPHYRigidBody *)rigidBody;
+- (void)internalAddRigidBody: (CPHYRigidBody *)rigidBody group:(int)group mask:(int)mask;
 - (void)internalRemoveRigidBody: (CPHYRigidBody *)rigidBody;
 
 - (void)internalAddTrigger: (CPHYTrigger *)physicsTrigger;
+- (void)internalAddTrigger: (CPHYTrigger *)physicsTrigger group:(int)group mask:(int)mask;
 - (void)internalRemoveTrigger: (CPHYTrigger *)physicsTrigger;
 
 - (void)internalStepSimulation: (NSTimeInterval)time;
