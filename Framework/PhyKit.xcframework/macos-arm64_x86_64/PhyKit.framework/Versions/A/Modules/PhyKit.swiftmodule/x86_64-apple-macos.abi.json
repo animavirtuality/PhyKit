@@ -5643,6 +5643,135 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "shape",
+            "printedName": "shape",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PHYCollisionShape",
+                "printedName": "PhyKit.PHYCollisionShape",
+                "usr": "s:6PhyKit17PHYCollisionShapeP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6PhyKit10PHYTriggerC5shapeAA17PHYCollisionShape_pvp",
+            "mangledName": "$s6PhyKit10PHYTriggerC5shapeAA17PHYCollisionShape_pvp",
+            "moduleName": "PhyKit",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PHYCollisionShape",
+                    "printedName": "PhyKit.PHYCollisionShape",
+                    "usr": "s:6PhyKit17PHYCollisionShapeP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6PhyKit10PHYTriggerC5shapeAA17PHYCollisionShape_pvg",
+                "mangledName": "$s6PhyKit10PHYTriggerC5shapeAA17PHYCollisionShape_pvg",
+                "moduleName": "PhyKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "scale",
+            "printedName": "scale",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PHYVector3",
+                "printedName": "PhyKit.PHYVector3",
+                "usr": "c:@S@PHYVector3"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6PhyKit10PHYTriggerC5scaleSo10PHYVector3Vvp",
+            "mangledName": "$s6PhyKit10PHYTriggerC5scaleSo10PHYVector3Vvp",
+            "moduleName": "PhyKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PHYVector3",
+                    "printedName": "PhyKit.PHYVector3",
+                    "usr": "c:@S@PHYVector3"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6PhyKit10PHYTriggerC5scaleSo10PHYVector3Vvg",
+                "mangledName": "$s6PhyKit10PHYTriggerC5scaleSo10PHYVector3Vvg",
+                "moduleName": "PhyKit",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PHYVector3",
+                    "printedName": "PhyKit.PHYVector3",
+                    "usr": "c:@S@PHYVector3"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6PhyKit10PHYTriggerC5scaleSo10PHYVector3Vvs",
+                "mangledName": "$s6PhyKit10PHYTriggerC5scaleSo10PHYVector3Vvs",
+                "moduleName": "PhyKit",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6PhyKit10PHYTriggerC5scaleSo10PHYVector3VvM",
+                "mangledName": "$s6PhyKit10PHYTriggerC5scaleSo10PHYVector3VvM",
+                "moduleName": "PhyKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(shape:name:)",
