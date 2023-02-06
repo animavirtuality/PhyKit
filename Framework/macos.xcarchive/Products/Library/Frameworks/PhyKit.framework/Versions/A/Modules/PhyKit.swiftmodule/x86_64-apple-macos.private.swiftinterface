@@ -49,7 +49,8 @@ public class PHYCollisionPair {
   final public let localPositionA: PhyKit.PHYVector3
   weak public var rigidBodyB: PhyKit.PHYRigidBody?
   final public let localPositionB: PhyKit.PHYVector3
-  public init(rigidBodyA: PhyKit.PHYRigidBody, localPositionA: PhyKit.PHYVector3, rigidBodyB: PhyKit.PHYRigidBody, localPositionB: PhyKit.PHYVector3)
+  final public let worldNormalB: PhyKit.PHYVector3
+  public init(rigidBodyA: PhyKit.PHYRigidBody, localPositionA: PhyKit.PHYVector3, rigidBodyB: PhyKit.PHYRigidBody, localPositionB: PhyKit.PHYVector3, worldNormalB: PhyKit.PHYVector3)
   @objc deinit
 }
 extension PhyKit.PHYVector3 {
@@ -159,7 +160,7 @@ public class PHYCollisionShapeGeometry : PhyKit.PHYCollisionShape {
   public init(geometry: PhyKit.PHYGeometry, type: PhyKit.PHYCollisionShapeGeometry.PHYCollisionShapeGeometryType, transform: PhyKit.PHYMatrix4 = PHYMatrix4MakeIdentity(), margin: Swift.Float = 0.04)
   @objc deinit
 }
-open class PHYGeometry {
+public class PHYGeometry {
   final public let internalGeometry: PhyKit.CPHYGeometry
   public init(scnGeometry: SceneKit.SCNGeometry)
   @objc deinit
@@ -199,6 +200,8 @@ public class PHYCollisionShapeCylinder : PhyKit.PHYCollisionShape {
   public init(type: PhyKit.PHYRigidBodyType, shape: PhyKit.PHYCollisionShape, name: Swift.String? = nil)
   @objc deinit
 }
+public struct PhyCollisionFilter {
+}
 @objc @_inheritsConvenienceInitializers public class PHYWorld : PhyKit.CPHYWorld {
   weak public var simulationDelegate: PhyKit.PHYWorldSimulationDelegate?
   weak public var collisionDelegate: PhyKit.PHYWorldCollisionDelegate?
@@ -207,13 +210,13 @@ public class PHYCollisionShapeCylinder : PhyKit.PHYCollisionShape {
     get
     set
   }
-  public func add(_ rigidBody: PhyKit.PHYRigidBody)
+  public func add(_ rigidBody: PhyKit.PHYRigidBody, collisionFilter: PhyKit.PhyCollisionFilter? = nil)
   public func remove(_ rigidBody: PhyKit.PHYRigidBody)
-  public func add(_ trigger: PhyKit.PHYTrigger)
+  public func add(_ trigger: PhyKit.PHYTrigger, collisionFilter: PhyKit.PhyCollisionFilter? = nil)
   public func remove(_ trigger: PhyKit.PHYTrigger)
   public func reset()
   public func rayCast(from: PhyKit.PHYVector3, to: PhyKit.PHYVector3) -> [PhyKit.PHYRaycastResult]
-  @objc override dynamic public func internalCollisionDidOccur(_ internalRigidBodyA: PhyKit.CPHYRigidBody, localPositionA: PhyKit.PHYVector3, internalRigidBodyB: PhyKit.CPHYRigidBody, localPositionB: PhyKit.PHYVector3)
+  @objc override dynamic public func internalCollisionDidOccur(_ internalRigidBodyA: PhyKit.CPHYRigidBody, localPositionA: PhyKit.PHYVector3, internalRigidBodyB: PhyKit.CPHYRigidBody, localPositionB: PhyKit.PHYVector3, worldNormalB: PhyKit.PHYVector3)
   @objc override dynamic public init()
   @objc deinit
 }

@@ -277,7 +277,7 @@ SWIFT_CLASS("_TtC6PhyKit10PHYTrigger")
 /// physics bodies are attached to the world.
 SWIFT_CLASS("_TtC6PhyKit8PHYWorld")
 @interface PHYWorld : CPHYWorld
-- (void)internalCollisionDidOccur:(CPHYRigidBody * _Nonnull)internalRigidBodyA localPositionA:(struct PHYVector3)localPositionA internalRigidBodyB:(CPHYRigidBody * _Nonnull)internalRigidBodyB localPositionB:(struct PHYVector3)localPositionB;
+- (void)internalCollisionDidOccur:(CPHYRigidBody * _Nonnull)internalRigidBodyA localPositionA:(struct PHYVector3)localPositionA internalRigidBodyB:(CPHYRigidBody * _Nonnull)internalRigidBodyB localPositionB:(struct PHYVector3)localPositionB worldNormalB:(struct PHYVector3)worldNormalB;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

@@ -1459,9 +1459,58 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "worldNormalB",
+            "printedName": "worldNormalB",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PHYVector3",
+                "printedName": "PhyKit.PHYVector3",
+                "usr": "c:@S@PHYVector3"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6PhyKit16PHYCollisionPairC12worldNormalBSo10PHYVector3Vvp",
+            "mangledName": "$s6PhyKit16PHYCollisionPairC12worldNormalBSo10PHYVector3Vvp",
+            "moduleName": "PhyKit",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PHYVector3",
+                    "printedName": "PhyKit.PHYVector3",
+                    "usr": "c:@S@PHYVector3"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6PhyKit16PHYCollisionPairC12worldNormalBSo10PHYVector3Vvg",
+                "mangledName": "$s6PhyKit16PHYCollisionPairC12worldNormalBSo10PHYVector3Vvg",
+                "moduleName": "PhyKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(rigidBodyA:localPositionA:rigidBodyB:localPositionB:)",
+            "printedName": "init(rigidBodyA:localPositionA:rigidBodyB:localPositionB:worldNormalB:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1492,11 +1541,17 @@
                 "name": "PHYVector3",
                 "printedName": "PhyKit.PHYVector3",
                 "usr": "c:@S@PHYVector3"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PHYVector3",
+                "printedName": "PhyKit.PHYVector3",
+                "usr": "c:@S@PHYVector3"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6PhyKit16PHYCollisionPairC10rigidBodyA14localPositionA0eF1B0gH1BAcA08PHYRigidF0C_So10PHYVector3VAiKtcfc",
-            "mangledName": "$s6PhyKit16PHYCollisionPairC10rigidBodyA14localPositionA0eF1B0gH1BAcA08PHYRigidF0C_So10PHYVector3VAiKtcfc",
+            "usr": "s:6PhyKit16PHYCollisionPairC10rigidBodyA14localPositionA0eF1B0gH1B12worldNormalBAcA08PHYRigidF0C_So10PHYVector3VAj2Ltcfc",
+            "mangledName": "$s6PhyKit16PHYCollisionPairC10rigidBodyA14localPositionA0eF1B0gH1B12worldNormalBAcA08PHYRigidF0C_So10PHYVector3VAj2Ltcfc",
             "moduleName": "PhyKit",
             "declAttributes": [
               "AccessControl"
@@ -2819,7 +2874,6 @@
         "usr": "s:6PhyKit11PHYGeometryC",
         "mangledName": "$s6PhyKit11PHYGeometryC",
         "moduleName": "PhyKit",
-        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -4010,6 +4064,18 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "PhyCollisionFilter",
+        "printedName": "PhyCollisionFilter",
+        "declKind": "Struct",
+        "usr": "s:6PhyKit0A15CollisionFilterV",
+        "mangledName": "$s6PhyKit0A15CollisionFilterV",
+        "moduleName": "PhyKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "PHYWorld",
         "printedName": "PHYWorld",
         "children": [
@@ -4415,7 +4481,7 @@
           {
             "kind": "Function",
             "name": "add",
-            "printedName": "add(_:)",
+            "printedName": "add(_:collisionFilter:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4427,11 +4493,26 @@
                 "name": "PHYRigidBody",
                 "printedName": "PhyKit.PHYRigidBody",
                 "usr": "c:@M@PhyKit@objc(cs)PHYRigidBody"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PhyKit.PhyCollisionFilter?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhyCollisionFilter",
+                    "printedName": "PhyKit.PhyCollisionFilter",
+                    "usr": "s:6PhyKit0A15CollisionFilterV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:6PhyKit8PHYWorldC3addyyAA12PHYRigidBodyCF",
-            "mangledName": "$s6PhyKit8PHYWorldC3addyyAA12PHYRigidBodyCF",
+            "usr": "s:6PhyKit8PHYWorldC3add_15collisionFilteryAA12PHYRigidBodyC_AA0a9CollisionF0VSgtF",
+            "mangledName": "$s6PhyKit8PHYWorldC3add_15collisionFilteryAA12PHYRigidBodyC_AA0a9CollisionF0VSgtF",
             "moduleName": "PhyKit",
             "declAttributes": [
               "AccessControl",
@@ -4469,7 +4550,7 @@
           {
             "kind": "Function",
             "name": "add",
-            "printedName": "add(_:)",
+            "printedName": "add(_:collisionFilter:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4481,11 +4562,26 @@
                 "name": "PHYTrigger",
                 "printedName": "PhyKit.PHYTrigger",
                 "usr": "c:@M@PhyKit@objc(cs)PHYTrigger"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PhyKit.PhyCollisionFilter?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhyCollisionFilter",
+                    "printedName": "PhyKit.PhyCollisionFilter",
+                    "usr": "s:6PhyKit0A15CollisionFilterV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:6PhyKit8PHYWorldC3addyyAA10PHYTriggerCF",
-            "mangledName": "$s6PhyKit8PHYWorldC3addyyAA10PHYTriggerCF",
+            "usr": "s:6PhyKit8PHYWorldC3add_15collisionFilteryAA10PHYTriggerC_AA0a9CollisionF0VSgtF",
+            "mangledName": "$s6PhyKit8PHYWorldC3add_15collisionFilteryAA10PHYTriggerC_AA0a9CollisionF0VSgtF",
             "moduleName": "PhyKit",
             "declAttributes": [
               "AccessControl",
@@ -4586,7 +4682,7 @@
           {
             "kind": "Function",
             "name": "internalCollisionDidOccur",
-            "printedName": "internalCollisionDidOccur(_:localPositionA:internalRigidBodyB:localPositionB:)",
+            "printedName": "internalCollisionDidOccur(_:localPositionA:internalRigidBodyB:localPositionB:worldNormalB:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4616,14 +4712,20 @@
                 "name": "PHYVector3",
                 "printedName": "PhyKit.PHYVector3",
                 "usr": "c:@S@PHYVector3"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PHYVector3",
+                "printedName": "PhyKit.PHYVector3",
+                "usr": "c:@S@PHYVector3"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@PhyKit@objc(cs)PHYWorld(im)internalCollisionDidOccur:localPositionA:internalRigidBodyB:localPositionB:",
-            "mangledName": "$s6PhyKit8PHYWorldC25internalCollisionDidOccur_14localPositionA0D10RigidBodyB0hI1BySo09CPHYRigidK0C_So10PHYVector3VAiKtF",
+            "usr": "c:@M@PhyKit@objc(cs)PHYWorld(im)internalCollisionDidOccur:localPositionA:internalRigidBodyB:localPositionB:worldNormalB:",
+            "mangledName": "$s6PhyKit8PHYWorldC25internalCollisionDidOccur_14localPositionA0D10RigidBodyB0hI1B12worldNormalBySo09CPHYRigidK0C_So10PHYVector3VAj2LtF",
             "moduleName": "PhyKit",
             "overriding": true,
-            "objc_name": "internalCollisionDidOccur:localPositionA:internalRigidBodyB:localPositionB:",
+            "objc_name": "internalCollisionDidOccur:localPositionA:internalRigidBodyB:localPositionB:worldNormalB:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -7190,49 +7292,49 @@
     {
       "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
       "kind": "IntegerLiteral",
-      "offset": 1043,
+      "offset": 1405,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
       "kind": "Array",
-      "offset": 1210,
+      "offset": 1577,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
       "kind": "Array",
-      "offset": 1257,
+      "offset": 1629,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
       "kind": "Dictionary",
-      "offset": 1323,
+      "offset": 1695,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
       "kind": "Dictionary",
-      "offset": 1397,
+      "offset": 1769,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
       "kind": "Dictionary",
-      "offset": 1464,
+      "offset": 1841,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
       "kind": "Dictionary",
-      "offset": 1534,
+      "offset": 1911,
       "length": 3,
       "value": "[]"
     },
