@@ -200,7 +200,8 @@ public class PHYCollisionShapeCylinder : PhyKit.PHYCollisionShape {
   public init(type: PhyKit.PHYRigidBodyType, shape: PhyKit.PHYCollisionShape, name: Swift.String? = nil)
   @objc deinit
 }
-public struct PhyCollisionFilter {
+public struct PHYCollisionFilter {
+  public init(group: Swift.Int32, mask: Swift.Int32)
 }
 @objc @_inheritsConvenienceInitializers public class PHYWorld : PhyKit.CPHYWorld {
   weak public var simulationDelegate: PhyKit.PHYWorldSimulationDelegate?
@@ -210,9 +211,9 @@ public struct PhyCollisionFilter {
     get
     set
   }
-  public func add(_ rigidBody: PhyKit.PHYRigidBody, collisionFilter: PhyKit.PhyCollisionFilter? = nil)
+  public func add(_ rigidBody: PhyKit.PHYRigidBody, collisionFilter: PhyKit.PHYCollisionFilter? = nil)
   public func remove(_ rigidBody: PhyKit.PHYRigidBody)
-  public func add(_ trigger: PhyKit.PHYTrigger, collisionFilter: PhyKit.PhyCollisionFilter? = nil)
+  public func add(_ trigger: PhyKit.PHYTrigger, collisionFilter: PhyKit.PHYCollisionFilter? = nil)
   public func remove(_ trigger: PhyKit.PHYTrigger)
   public func reset()
   public func rayCast(from: PhyKit.PHYVector3, to: PhyKit.PHYVector3) -> [PhyKit.PHYRaycastResult]

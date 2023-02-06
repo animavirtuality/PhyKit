@@ -13,11 +13,16 @@
 import Foundation
 import SceneKit
 
-public struct PhyCollisionFilter {
+public struct PHYCollisionFilter {
     ///The collision group or groups, stored as a bit mask, to which the rigid body belongs.
     let group: Int32
     ///The collision group or groups, stored as a bitmask, with which the rigid body can collide.
     let mask: Int32
+    
+    public init(group: Int32, mask: Int32) {
+        self.group = group
+        self.mask = mask
+    }
 }
 /**
  Worlds are responsible for running the actual bullet simulation and managing which
@@ -60,7 +65,7 @@ public class PHYWorld: CPHYWorld {
     /// - Parameters:
     ///   - rigidBody: The rigid body to add
     ///   - collisionFilter: Defines the collision group or groups to which the rigid body belongs, and the collision group or groups with which the rigid body can collide.
-    public func add(_ rigidBody: PHYRigidBody, collisionFilter: PhyCollisionFilter? = nil) {
+    public func add(_ rigidBody: PHYRigidBody, collisionFilter: PHYCollisionFilter? = nil) {
         rigidBodies.insert(rigidBody)
         if let filter = collisionFilter {
             internalAdd(rigidBody, group: filter.group, mask: filter.mask)
@@ -82,7 +87,7 @@ public class PHYWorld: CPHYWorld {
     /// Adds a trigger to the simulation
     /// - Parameters:
     ///   - trigger: The trigger to add to the simulation
-    public func add(_ trigger: PHYTrigger, collisionFilter: PhyCollisionFilter? = nil) {
+    public func add(_ trigger: PHYTrigger, collisionFilter: PHYCollisionFilter? = nil) {
         triggers.insert(trigger)
         if let filter = collisionFilter {
             internalAdd(trigger, group: filter.group, mask: filter.mask)
