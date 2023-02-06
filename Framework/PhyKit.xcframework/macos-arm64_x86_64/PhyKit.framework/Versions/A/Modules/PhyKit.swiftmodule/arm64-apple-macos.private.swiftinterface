@@ -256,7 +256,8 @@ extension PhyKit.PHYRigidBodyType {
 }
 @objc public class PHYTrigger : PhyKit.CPHYTrigger {
   final public let uuid: Swift.String
-  public init(shape: PhyKit.PHYCollisionShape)
+  public var name: Swift.String?
+  public init(shape: PhyKit.PHYCollisionShape, name: Swift.String? = nil)
   public func getCollidingRigidBodies() -> [PhyKit.PHYRigidBody]
   @objc deinit
 }
