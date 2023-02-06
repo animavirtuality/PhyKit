@@ -14,9 +14,12 @@ public class PHYTrigger: CPHYTrigger {
     /// A unique identifier for this trigger, used internally
     public let uuid: String = UUID().uuidString
     
+    public var name: String?
+    
     /// Creates a new trigger
     /// - Parameter shape: The shape to use for detecting rigid body intersections with this trigger
-    public init(shape: PHYCollisionShape) {
+    public init(shape: PHYCollisionShape, name: String? = nil) {
+        self.name = name
         super.init(collisionShape: shape.internalShape)
     }
     

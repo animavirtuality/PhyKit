@@ -66,7 +66,13 @@ public class PHYWorld: CPHYWorld {
     ///   - rigidBody: The rigid body to add
     ///   - collisionFilter: Defines the collision group or groups to which the rigid body belongs, and the collision group or groups with which the rigid body can collide.
     public func add(_ rigidBody: PHYRigidBody, collisionFilter: PHYCollisionFilter? = nil) {
+        guard rigidBodies.contains(rigidBody) == false else {
+            print("PhysicsWorld already contains PHYRigidBody \(rigidBody.name ?? "") and will not add it more than once.")
+            return
+        }
+        
         rigidBodies.insert(rigidBody)
+        
         if let filter = collisionFilter {
             internalAdd(rigidBody, group: filter.group, mask: filter.mask)
         } else {
@@ -88,7 +94,13 @@ public class PHYWorld: CPHYWorld {
     /// - Parameters:
     ///   - trigger: The trigger to add to the simulation
     public func add(_ trigger: PHYTrigger, collisionFilter: PHYCollisionFilter? = nil) {
+        guard triggers.contains(trigger) == false else {
+            print("PhysicsWorld already contains PHYTrigger \(trigger.name ?? "") and will not add it more than once.")
+            return
+        }
+        
         triggers.insert(trigger)
+        
         if let filter = collisionFilter {
             internalAdd(trigger, group: filter.group, mask: filter.mask)
         } else {
