@@ -41,5 +41,4 @@ public class PHYRigidBody: CPHYRigidBody {
         self.name = name
         super.init(collisionShape: shape.internalShape, rigidBodyType: type.internalType, mass: type.mass)
     }
-    
 }

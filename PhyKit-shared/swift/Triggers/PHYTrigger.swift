@@ -16,10 +16,22 @@ public class PHYTrigger: CPHYTrigger {
     
     public var name: String?
     
+    public let shape: PHYCollisionShape
+    
+    public var scale: PHYVector3 {
+        set {
+            self.shape.internalShape.setLocalScaling(newValue)
+        }
+        get {
+            return self.shape.internalShape.getLocalScaling()
+        }
+    }
+    
     /// Creates a new trigger
     /// - Parameter shape: The shape to use for detecting rigid body intersections with this trigger
     public init(shape: PHYCollisionShape, name: String? = nil) {
         self.name = name
+        self.shape = shape
         super.init(collisionShape: shape.internalShape)
     }
     
