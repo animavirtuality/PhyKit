@@ -155,11 +155,14 @@
     // Subclass overrides
 }
 
-- (void)internalRaycastAllFrom: (struct PHYVector3 )from to: (struct PHYVector3 )to perform: (void (^_Nullable)(struct PHYVector3 position, struct PHYVector3 normal, CPHYRigidBody* rigidBody))hitResult {
+- (void)internalRaycastAllFrom: (struct PHYVector3 )from to: (struct PHYVector3 )to group:(int)group mask:(int)mask perform: (void (^_Nullable)(struct PHYVector3 position, struct PHYVector3 normal, CPHYRigidBody* rigidBody))hitResult {
     
     btVector3 c_from = btVector3(from.x, from.y, from.z);
     btVector3 c_to = btVector3(to.x, to.y, to.z);
     btCollisionWorld::AllHitsRayResultCallback result(c_from, c_to);
+    
+    result.m_collisionFilterGroup = group;
+    result.m_collisionFilterMask = mask;
     
     _world->rayTest(c_from, c_to, result);
     

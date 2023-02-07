@@ -137,9 +137,16 @@ public class PHYWorld: CPHYWorld {
     ///   - from: The starting 3D world position of the ray
     ///   - to: The ending 3D world position of the ray
     /// - Returns: An array of rigid bodies that intersect the ray, sorted from closest to furthest
-    public func rayCast(from: PHYVector3, to: PHYVector3) -> [PHYRaycastResult] {
+    public func rayCast(from: PHYVector3, to: PHYVector3, collisionFilter: PHYCollisionFilter? = nil) -> [PHYRaycastResult] {
         var results: [PHYRaycastResult] = []
-        internalRaycastAll(from: from, to: to) { (position, normal, rigidBody) in
+        
+        //btBroadphaseProxy::DefaultFilter
+        let group = collisionFilter?.group ?? 1
+        
+        //btBroadphaseProxy::AllFilter
+        let mask = collisionFilter?.mask ?? -1
+        
+        internalRaycastAll(from: from, to: to, group: group, mask: mask) { (position, normal, rigidBody) in
             guard let rigidBody = rigidBody as? PHYRigidBody else { return }
             let result = PHYRaycastResult(rigidBody: rigidBody, worldPosition: position, worldNormal: normal)
             results.append(result)
