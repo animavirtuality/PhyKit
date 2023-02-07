@@ -218,7 +218,7 @@ public struct PHYCollisionFilter {
   public func add(_ trigger: PhyKit.PHYTrigger, collisionFilter: PhyKit.PHYCollisionFilter? = nil)
   public func remove(_ trigger: PhyKit.PHYTrigger)
   public func reset()
-  public func rayCast(from: PhyKit.PHYVector3, to: PhyKit.PHYVector3) -> [PhyKit.PHYRaycastResult]
+  public func rayCast(from: PhyKit.PHYVector3, to: PhyKit.PHYVector3, collisionFilter: PhyKit.PHYCollisionFilter? = nil) -> [PhyKit.PHYRaycastResult]
   @objc override dynamic public func internalCollisionDidOccur(_ internalRigidBodyA: PhyKit.CPHYRigidBody, localPositionA: PhyKit.PHYVector3, internalRigidBodyB: PhyKit.CPHYRigidBody, localPositionB: PhyKit.PHYVector3, worldNormalB: PhyKit.PHYVector3)
   @objc override dynamic public init()
   @objc deinit

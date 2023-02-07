@@ -4675,7 +4675,7 @@
           {
             "kind": "Function",
             "name": "rayCast",
-            "printedName": "rayCast(from:to:)",
+            "printedName": "rayCast(from:to:collisionFilter:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4702,11 +4702,26 @@
                 "name": "PHYVector3",
                 "printedName": "PhyKit.PHYVector3",
                 "usr": "c:@S@PHYVector3"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PhyKit.PHYCollisionFilter?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PHYCollisionFilter",
+                    "printedName": "PhyKit.PHYCollisionFilter",
+                    "usr": "s:6PhyKit18PHYCollisionFilterV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:6PhyKit8PHYWorldC7rayCast4from2toSayAA16PHYRaycastResultCGSo10PHYVector3V_AKtF",
-            "mangledName": "$s6PhyKit8PHYWorldC7rayCast4from2toSayAA16PHYRaycastResultCGSo10PHYVector3V_AKtF",
+            "usr": "s:6PhyKit8PHYWorldC7rayCast4from2to15collisionFilterSayAA16PHYRaycastResultCGSo10PHYVector3V_AlA012PHYCollisionI0VSgtF",
+            "mangledName": "$s6PhyKit8PHYWorldC7rayCast4from2to15collisionFilterSayAA16PHYRaycastResultCGSo10PHYVector3V_AlA012PHYCollisionI0VSgtF",
             "moduleName": "PhyKit",
             "declAttributes": [
               "AccessControl",
