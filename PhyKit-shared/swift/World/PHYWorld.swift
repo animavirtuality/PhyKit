@@ -43,8 +43,8 @@ public class PHYWorld: CPHYWorld {
     
     /// The current time of the simulation. Increasing this value will cause the simulation to step forward in time.
     public var simulationTime: TimeInterval = 0 {
-        didSet {
-            stepSimulation(simulationTime)
+        willSet {
+            stepSimulation(newValue)
         }
     }
     
@@ -157,8 +157,12 @@ public class PHYWorld: CPHYWorld {
     // MARK: Private Functions
     
     private func stepSimulation(_ time: TimeInterval) {
+        guard time > simulationTime else {
+            assertionFailure("Attempting to step back in time is not allowed. The time passed to `stepSimulation(_ time:)` should be greater than the last simulation time.")
+            return
+        }
         simulationDelegate?.physicsWorld(self, willSimulateAtTime: time)
-        internalStepSimulation(time)
+        internalStepSimulation(time - simulationTime)
         simulationDelegate?.physicsWorld(self, didSimulateAtTime: time)
     
         if collisionDelegate != nil {

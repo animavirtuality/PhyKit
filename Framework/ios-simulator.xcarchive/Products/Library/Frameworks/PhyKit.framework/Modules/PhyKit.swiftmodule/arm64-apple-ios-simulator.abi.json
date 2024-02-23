@@ -7496,6 +7496,48 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2374,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2535,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2572,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2612,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2656,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2771,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeStaticPlane.swift",
       "kind": "IntegerLiteral",
       "offset": 463,
@@ -7524,6 +7566,174 @@
       "value": "0.04"
     },
     {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 493,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 495,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 497,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 996,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1011,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1026,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1156,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1171,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1186,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1278,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1293,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1308,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1388,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1403,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1418,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2843,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2904,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2961,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3005,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3039,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3083,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3118,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3158,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3189,
+      "length": 1,
+      "value": "2"
+    },
+    {
       "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
       "kind": "BooleanLiteral",
       "offset": 360,
@@ -7532,10 +7742,66 @@
     },
     {
       "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
+      "kind": "StringLiteral",
+      "offset": 932,
+      "length": 18,
+      "value": "\"startOrientation\""
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
+      "kind": "StringLiteral",
+      "offset": 977,
+      "length": 16,
+      "value": "\"endOrientation\""
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
+      "kind": "StringLiteral",
+      "offset": 1226,
+      "length": 18,
+      "value": "\"startOrientation\""
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
+      "kind": "StringLiteral",
+      "offset": 1278,
+      "length": 16,
+      "value": "\"endOrientation\""
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
       "kind": "BooleanLiteral",
       "offset": 2099,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
+      "kind": "StringLiteral",
+      "offset": 2590,
+      "length": 18,
+      "value": "\"startOrientation\""
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
+      "kind": "StringLiteral",
+      "offset": 2635,
+      "length": 16,
+      "value": "\"endOrientation\""
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
+      "kind": "StringLiteral",
+      "offset": 2884,
+      "length": 18,
+      "value": "\"startOrientation\""
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
+      "kind": "StringLiteral",
+      "offset": 2936,
+      "length": 16,
+      "value": "\"endOrientation\""
     },
     {
       "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Scene\/PHYScene.swift",
@@ -7557,6 +7823,202 @@
       "offset": 607,
       "length": 4,
       "value": "0.04"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry+ARKit.swift",
+      "kind": "Array",
+      "offset": 901,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry+ARKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 930,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry+ARKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1134,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry+ARKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1216,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry+ARKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1298,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry+ARKit.swift",
+      "kind": "StringLiteral",
+      "offset": 1717,
+      "length": 50,
+      "value": "\"Expected three floats (twelve bytes) per vertex.\""
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry+ARKit.swift",
+      "kind": "StringLiteral",
+      "offset": 3679,
+      "length": 50,
+      "value": "\"Expected three floats (twelve bytes) per vertex.\""
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry+ARKit.swift",
+      "kind": "StringLiteral",
+      "offset": 4139,
+      "length": 51,
+      "value": "\"Expected one UInt32 (four bytes) per vertex index\""
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry+ARKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4458,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "Array",
+      "offset": 1407,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "Array",
+      "offset": 1948,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "Array",
+      "offset": 2166,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2219,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2255,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2513,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3056,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "Array",
+      "offset": 3193,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3238,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3528,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4216,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4244,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4416,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4726,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5036,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "Array",
+      "offset": 6074,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6952,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6970,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6988,
+      "length": 1,
+      "value": "2"
     },
     {
       "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeCapsule.swift",
@@ -7603,42 +8065,175 @@
     {
       "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
       "kind": "Array",
-      "offset": 1685,
+      "offset": 1680,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
       "kind": "Array",
-      "offset": 1737,
+      "offset": 1732,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
       "kind": "Dictionary",
-      "offset": 1803,
+      "offset": 1798,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
       "kind": "Dictionary",
-      "offset": 1877,
+      "offset": 1872,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
       "kind": "Dictionary",
-      "offset": 1949,
+      "offset": 1944,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
       "kind": "Dictionary",
-      "offset": 2019,
+      "offset": 2014,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2499,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "kind": "StringLiteral",
+      "offset": 2530,
+      "length": 104,
+      "value": "\"PhysicsWorld already contains PHYRigidBody \""
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "kind": "StringLiteral",
+      "offset": 2594,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "kind": "StringLiteral",
+      "offset": 2597,
+      "length": 3,
+      "value": "\" and will not add it more than once.\""
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3476,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "kind": "StringLiteral",
+      "offset": 3507,
+      "length": 100,
+      "value": "\"PhysicsWorld already contains PHYTrigger \""
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "kind": "StringLiteral",
+      "offset": 3567,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "kind": "StringLiteral",
+      "offset": 3570,
+      "length": 3,
+      "value": "\" and will not add it more than once.\""
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4210,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "kind": "Array",
+      "offset": 4409,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "kind": "Array",
+      "offset": 4431,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "kind": "Dictionary",
+      "offset": 4459,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "kind": "Dictionary",
+      "offset": 4496,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "kind": "Array",
+      "offset": 4979,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5080,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5174,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "kind": "StringLiteral",
+      "offset": 5724,
+      "length": 143,
+      "value": "\"Attempting to step back in time is not allowed. The time passed to `stepSimulation(_ time:)` should be greater than the last simulation time.\""
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "kind": "Dictionary",
+      "offset": 6384,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "kind": "Dictionary",
+      "offset": 7104,
       "length": 3,
       "value": "[]"
     },
@@ -7648,6 +8243,55 @@
       "offset": 431,
       "length": 4,
       "value": "0.04"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Move.swift",
+      "kind": "FloatLiteral",
+      "offset": 1999,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/RigidBodies\/PHYRigidBodyType.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1083,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/RigidBodies\/PHYRigidBodyType.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1140,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/RigidBodies\/PHYRigidBodyType.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1181,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/RigidBodies\/PHYRigidBodyType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1332,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/RigidBodies\/PHYRigidBodyType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1378,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/RigidBodies\/PHYRigidBodyType.swift",
+      "kind": "FloatLiteral",
+      "offset": 1765,
+      "length": 3,
+      "value": "1.0"
     },
     {
       "filePath": "\/Users\/grantjarvis\/Documents\/Apps\/Anima-Folder\/PhyKit\/PhyKit-shared\/swift\/Triggers\/PHYTrigger.swift",

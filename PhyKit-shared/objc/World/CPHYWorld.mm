@@ -98,7 +98,7 @@
 }
 
 - (void)internalStepSimulation: (NSTimeInterval)time {
-    _world->stepSimulation(time, 1, 1 / 60.0f);
+    _world->stepSimulation(time, 4, 1 / 60.0f);
 }
 
 // MARK: Collisions
